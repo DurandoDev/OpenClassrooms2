@@ -1,0 +1,65 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0;
+}
+.green{
+    background-color: #29DC72;
+    color: black; !imporant
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #91B4FF;
+}
+/* HEADER */
+
+
+header{
+    background-color: #6E3AF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#img{
+    margin-top: 8px;
+}
+
+#img img{
+    border: 1px solid black;
+    border-radius: 50% 20% / 50% 20%;
+}
+header h1{
+    font-size: 3em;
+}
+header h1,header p{
+    color: white;
+}
+header h2{
+    text-align: center;
+}
+/* COMPETENCES */
+
+#competences{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#competences p, ul{
+    color: #2A63DD;
+}
+#icon{
+    color: #0036AA;
+}
+/* FOOTER */
+
+footer{
+    background-color: #0036AA;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+footer div{
+    margin-left: 30px;
+}
