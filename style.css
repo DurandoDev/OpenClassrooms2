@@ -45,6 +45,7 @@ header h2{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #D0D0D0;
 }
 #competences p, ul{
     color: #2A63DD;
